@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import DataLabel from '../context/dataLabel';
 
-const Label = props => {
+const Label = () => {
   const ctx = useContext(DataLabel)
   return (
     <label

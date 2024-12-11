@@ -2,9 +2,8 @@ import React, {useContext} from "react";
 import Label from "./Label";
 import DataLabel from "../context/dataLabel";
 
-const Input = props => {
+const Input = ({change, blur, val}) => {
   const ctx = useContext(DataLabel)
-  const {change, blur, val} = props
   return (
     <>
       <Label />

@@ -1,8 +1,7 @@
 import React from "react";
 import Label from "./Label";
 
-const Radio = props => {
-  const { myid, value, chk, onChange} = props;
+const Radio = ({ myid, value, chk, onChange}) => {
 
   return (
     <div className="form-check form-check-inline">
